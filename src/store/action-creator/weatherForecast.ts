@@ -4,8 +4,8 @@ import {
   ForecastAction,
   ForecastActionTypes,
 } from "../../types/weatherForecast";
-const coordinatesApi = "http://api.openweathermap.org/geo/1.0/direct";
-const forecastApi = "http://api.openweathermap.org/data/2.5/forecast";
+const coordinatesApi = "https://api.openweathermap.org/geo/1.0/direct";
+const forecastApi = "https://api.openweathermap.org/data/2.5/forecast";
 
 export const fetchWeatherForecast = (city: string) => {
   return async (dispatch: Dispatch<ForecastAction>) => {

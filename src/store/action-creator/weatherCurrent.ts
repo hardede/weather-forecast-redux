@@ -1,8 +1,8 @@
 import axios from "axios";
 import { Dispatch } from "redux";
 import { CurrentAction, CurrentActionTypes } from "../../types/weatherCurrent";
-const coordinatesApi = "http://api.openweathermap.org/geo/1.0/direct";
-const currentWeatherApi = "http://api.openweathermap.org/data/2.5/weather";
+const coordinatesApi = "https://api.openweathermap.org/geo/1.0/direct";
+const currentWeatherApi = "https://api.openweathermap.org/data/2.5/weather";
 
 export const fetchWeatherCurrent = (city: string) => {
   return async (dispatch: Dispatch<CurrentAction>) => {

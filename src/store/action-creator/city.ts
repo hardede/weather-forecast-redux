@@ -2,7 +2,7 @@ import axios from "axios";
 import { Dispatch } from "redux";
 import { CityAction, CityActionTypes } from "../../types/cityType";
 
-const coordinatesApi = "http://api.openweathermap.org/geo/1.0/direct";
+const coordinatesApi = "https://api.openweathermap.org/geo/1.0/direct";
 
 export const fetchCity = (city: string) => {
   return async (dispatch: Dispatch<CityAction>) => {
