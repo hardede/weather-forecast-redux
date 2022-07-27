@@ -1,4 +1,3 @@
-import { observer } from "mobx-react-lite";
 import { FC } from "react";
 import { useTypedSelector } from "../../hooks/useTypedSelector";
 
@@ -76,4 +75,4 @@ const CurrentWeather: FC = () => {
   );
 };
 
-export default observer(CurrentWeather);
+export default CurrentWeather;

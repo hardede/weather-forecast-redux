@@ -1,4 +1,3 @@
-import { observer } from "mobx-react-lite";
 import { FC } from "react";
 import { useAction } from "../../hooks/useAction";
 import Validation from "../../hooks/useValidation";
@@ -52,4 +51,4 @@ const ChooseCity: FC = () => {
   );
 };
 
-export default observer(ChooseCity);
+export default ChooseCity;

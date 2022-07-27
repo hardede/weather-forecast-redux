@@ -1,4 +1,3 @@
-import { observer } from "mobx-react-lite";
 import { FC } from "react";
 import {
   Accordion,
@@ -91,4 +90,4 @@ const Forecast: FC = () => {
   );
 };
 
-export default observer(Forecast);
+export default Forecast;
